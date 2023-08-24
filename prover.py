@@ -2,14 +2,11 @@ from field import FieldElement
 from polynomial import X
 from polynomial import interpolate_poly
 from hashlib import sha256
-from hashlib import sha256
 from channel import serialize
 from channel import Channel
-from field import FieldElement
 from merkle import MerkleTree
-from polynomial import interpolate_poly, X, prod
-from polynomial import interpolate_poly, Polynomial
-from hashlib import sha256
+from polynomial import prod
+from polynomial import Polynomial
 import time
 
 
